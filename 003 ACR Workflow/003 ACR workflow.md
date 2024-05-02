@@ -34,7 +34,7 @@ Having this container image in the ACR will allow us to pull it into the K8s clu
 
 6. Create a new role assignment with the following command:
 
-    `az role assignment create --role contributor --subscription $subscriptionId --assignee-object-id  $assigneeObjectId --scope /subscriptions/$subscriptionId/resourceGroups/$resourceGroupName/providers/Microsoft.Web/sites/ --assignee-principal-type ServicePrincipal`
+    `az role assignment create --role contributor --subscription $subscriptionId --assignee-object-id  $assigneeObjectId --scope /subscriptions/$subscriptionId/resourceGroups/$resourceGroupName --assignee-principal-type ServicePrincipal`
 
     Replace `$subscriptionId` with your subscription ID, `$resourceGroupName` with your resource group name, and `$assigneeObjectId` with the generated `assignee-object-id`.
 
