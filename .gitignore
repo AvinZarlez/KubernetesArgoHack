@@ -35,3 +35,5 @@ terraform.rc
 
 # Ignore secret key files
 ssh-secret-key.yml
+
+credential.json
