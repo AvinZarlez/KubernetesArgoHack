@@ -34,6 +34,7 @@ env:
   - AZURE_CONTAINER_REGISTRY: avinargohackregistry
   - CONTAINER_NAME: avinargohackcontainer
   - RESOURCE_GROUP: avinargohack
+
 jobs:
   buildImage:
     permissions:
