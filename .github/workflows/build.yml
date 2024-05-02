@@ -31,10 +31,9 @@ on:
     branches: ["main"]
 
 env:
-  AZURE_CONTAINER_REGISTRY: "your-azure-container-registry"
-  CONTAINER_NAME: "your-container-name"
-  RESOURCE_GROUP: "your-resource-group"
-
+  - AZURE_CONTAINER_REGISTRY: avinargohackregistry
+  - CONTAINER_NAME: avinargohackcontainer
+  - RESOURCE_GROUP: avinargohack
 jobs:
   buildImage:
     permissions:
